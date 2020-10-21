@@ -31,14 +31,8 @@
 					}
 				}
 			}
-		}, {
-			"path": "pages/discover/discover",
-			"style": {
-				"app-plus": {
-					"titleNView": false
-				}
-			}
-		}, {
+		},
+		 {
 			"path": "pages/my/my",
 			"style": {
 				
@@ -69,29 +63,29 @@
 	},
 	"tabBar": {
 		"color": "#333333",
-		"selectedColor": "#FC5C82",
+		"selectedColor": "rgb(244, 234, 42)",
 		"backgroundColor": "#FFFFFF",
 		"borderStyle": "black",
 		"list": [{
 			"pagePath": "pages/index/index",
 			"text": "首页",
-			"iconPath": "static/tabbar/index.png",
-			"selectedIconPath": "static/tabbar/indexed.png"
+			"iconPath": "static/tabbar/first.png",
+			"selectedIconPath": "static/tabbar/firstchecked.png"
 		}, {
 			"pagePath": "pages/discover/discover",
 			"text": "动态",
-			"iconPath": "static/tabbar/news.png",
-			"selectedIconPath": "static/tabbar/newsed.png"
+			"iconPath": "static/tabbar/new.png",
+			"selectedIconPath": "static/tabbar/newchecked.png"
 		}, {
 			"pagePath": "pages/well-sold/well-sold",
 			"text": "购物车",
-			"iconPath": "static/tabbar/paper.png",
-			"selectedIconPath": "static/tabbar/papered.png"
+			"iconPath": "static/tabbar/shopping.png",
+			"selectedIconPath": "static/tabbar/shoppingchecked.png"
 		}, {
 			"pagePath": "pages/my/my",
 			"text": "我的",
-			"iconPath": "static/tabbar/home.png",
-			"selectedIconPath": "static/tabbar/homeed.png"
+			"iconPath": "static/tabbar/my.png",
+			"selectedIconPath": "static/tabbar/mychecked.png"
 		}]
 	}
 }
